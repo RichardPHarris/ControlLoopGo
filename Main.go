@@ -10,11 +10,11 @@ func main() {
 	Diff := 0
 	for {
 
-		fmt.Println("The current number is: ", Num, "/n")
+		fmt.Println("The current number is: ", Num)
 
 		fmt.Println("Please enter desired number")
 
-		fmt.Scanln(EnteredNum)
+		fmt.Scanln(&EnteredNum)
 
 		Diff = EnteredNum - Num
 
